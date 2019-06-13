@@ -15,7 +15,7 @@ function plot_kinect_skeleton(h, t, joints)
 %   Last update: 09/06/2015
 %
 
-run('kinect_joint_mapping.m');
+run('kinect_joint_mapping.m');%runs the script with the same name as in run
 
 num_jnts = length(joints);
 num_limbs = size(joint_connections,1);
